@@ -9,6 +9,7 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onGesture(Gesture.Shake, function () {
     radio.sendValue("dir", 50)
+    state = 50
 })
 input.onButtonPressed(Button.AB, function () {
     if (state == 50) {
