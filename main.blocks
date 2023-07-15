@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="qg:FkeyaTEy0:3+Iey0)">state</variable></variables><block type="pxt-on-start" id="G;Qf}_yp3^_4rM?BM55p" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="BX$%^6XLm~*f3-Q*;ERF"><value name="ID"><shadow type="math_number_minmax" id="Wu?kwcx-O!DtLqlU6QPC"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">7</field></shadow></value><next><block type="device_show_leds" id="r3Y2;F4qW.-x+?g@YG!R"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></next></block></statement></block><block type="device_forever" id=".i4J)CHxIT?Mk$]yxA)m" x="425" y="14"><statement name="HANDLER"><block type="device_show_leds" id=".cDcz75dxG~Z]E,[sslq"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="controls_if" id="jQaJtywzgAKN/c}-yBQc"><mutation elseif="2"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="%qb^tQ{pG#/Hday}|CEn"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="radio_datagram_send" id="Re0Y)q{C73IK27@2XiOm"><value name="value"><shadow type="math_number" id="QU([]Xafs~GRfh.|hTRC"><field name="NUM">1</field></shadow></value></block></statement><value name="IF1"><block type="device_get_button2" id="GcXsa`eUv]U9lq$xH*R]"><field name="NAME">Button.B</field></block></value><statement name="DO1"><block type="radio_datagram_send" id="Zk(bznK-ok+7Y[tJ,K|4"><value name="value"><shadow type="math_number" id="CPy#^T3{sZ6`IWQ~HSQv"><field name="NUM">2</field></shadow></value></block></statement><value name="IF2"><block type="device_get_button2" id=";7v`a?J{9rHjS)C$(W$K"><field name="NAME">Button.AB</field></block></value><statement name="DO2"><block type="radio_datagram_send" id="~(|Hh=Z#0H?~#;`Aj:.T"><value name="value"><shadow type="math_number" id="s{|`nOY9SMTGT(vGQU{@"><field name="NUM">3</field></shadow></value></block></statement><next><block type="device_pause" id="OiNGE3wUTpyJyy$_;GH@"><value name="pause"><shadow type="timePicker" id="*r^4Y7^_VPYd9)li.{-x"><field name="ms">100</field></shadow></value></block></next></block></next></block></statement></block></xml>
